@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "CGINF"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Curva de Lorenz e Índice de Gini
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
+lang: pt
+
